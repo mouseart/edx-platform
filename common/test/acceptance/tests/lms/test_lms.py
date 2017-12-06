@@ -639,7 +639,7 @@ class HighLevelTabTest(UniqueCourseTest):
         ).install()
 
         # Auto-auth register for the course
-        AutoAuthPage(self.browser, course_id=self.course_id).visit()
+        AutoAuthPage(self.browser, course_id=self.course_id, full_name='Test').visit()
 
     def test_course_info(self):
         """
