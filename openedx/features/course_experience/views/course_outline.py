@@ -57,7 +57,8 @@ class CourseOutlineFragmentView(EdxFragmentView):
 
         for milestone in all_course_prereqs:
             course_content_milestones[milestone['content_id']] = {'completed_prereqs': True}
-            unfulfilled_prereqs = get_course_content_milestones(
+            
+        unfulfilled_prereqs = get_course_content_milestones(
                 course_id=course_key,
                 content_id=None,
                 relationship='requires',

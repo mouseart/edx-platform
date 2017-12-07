@@ -1,0 +1,456 @@
+---> pavelib.tests.test_system
+---> pavelib.prereqs.install_prereqs
+---> pavelib.prereqs.install_node_prereqs
+Node prereqs unchanged, skipping...
+---> pavelib.prereqs.install_python_prereqs
+---> pavelib.prereqs.uninstall_python_packages
+NO_PYTHON_UNINSTALL is set. No attempts will be made to uninstall old Python libs.
+Python prereqs unchanged, skipping...
+pip freeze
+-e git+https://github.com/edx/acid-block.git@e46f9cda8a03e121a00c7e347084d142d22ebfb7#egg=acid_xblock
+-e git+https://github.com/open-craft/xblock-activetable.git@e933d41bb86a8d50fb878787ca680165a092a6d5#egg=activetable_xblock
+amqp==1.4.9
+analytics-python==1.1.0
+-e git+https://github.com/edx/AnimationXBlock.git@d2b551bb8f49a138088e10298576102164145b87#egg=animation_xblock
+anyjson==0.3.3
+apipkg==1.4
+appdirs==1.4.3
+argh==0.26.2
+asn1crypto==0.23.0
+astroid==1.5.2
+attrs==17.2.0
+-e git+https://github.com/edx/AudioXBlock.git@1fbf19cc21613aead62799469e1593adb037fdd9#egg=audio_xblock
+Babel==1.3
+backports-abc==0.5
+backports.functools-lru-cache==1.4
+BeautifulSoup==3.2.1
+beautifulsoup4==4.1.3
+before-after==0.1.3
+billiard==3.3.0.23
+bleach==1.4
+bok-choy==0.7.1
+boto==2.39.0
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=calc&subdirectory=common/lib/calc
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=capa&subdirectory=common/lib/capa
+celery==3.1.18
+certifi==2017.11.5
+cffi==1.11.2
+charade==1.0.3
+chardet==3.0.4
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=chem&subdirectory=common/lib/chem
+chrono==1.0.2
+click==3.3
+click-log==0.1.8
+-e git+https://github.com/doctoryes/code_block_timer.git@f3d0629f086bcc649c3c77f4bc5b9c2c8172c3bf#egg=code_block_timer
+-e git+https://github.com/edx/codejail.git@a320d43ce6b9c93b17636b2491f724d9e433be47#egg=codejail
+colorama==0.3.9
+-e git+https://github.com/edx/ConceptXBlock.git@2376fde9ebdd83684b78dde77ef96361c3bd1aa0#egg=concept_xblock
+configparser==3.5.0
+constantly==15.1.0
+coverage==4.2
+crowdsourcehinter-xblock==0.1
+cryptography==1.9
+cssselect==0.9.1
+cssutils==1.0.2
+ddt==0.8.0
+dealer==2.0.4
+decorator==4.1.2
+defusedxml==0.4.1
+dicttoxml==1.7.4
+diff-cover==0.9.8
+Django==1.8.18
+django-appconf==1.0.2
+django-babel==0.6.1
+django-babel-underscore==0.5.2
+django-birdcage==1.0.0
+django-braces==1.12.0
+django-cas==2.1.1
+django-celery==3.2.1+edx.1
+django-classy-tags==0.8.0
+django-config-models==0.1.8
+django-cors-headers==2.1.0
+django-countries==4.6.1
+django-crum==0.7.2
+django-debug-toolbar==1.8
+django-debug-toolbar-mongo==0.1.10
+django-filter==1.0.4
+django-ipware==1.1.0
+django-memcached-hashring==0.1.2
+django-method-override==0.1.0
+django-model-utils==3.0.0
+django-mptt==0.8.7
+django-nose==1.4.1
+django-oauth-plus===2...2...9...e.d.x.-.1
+django-oauth-toolkit==0.12.0
+django-object-actions==0.10.0
+django-openid-auth==0.14
+django-pipeline==1.5.3
+django-pipeline-forgiving==1.0.0
+django-pyfs==1.0.7
+django-ratelimit-backend==1.1.1
+django-require==1.0.11
+django-sekizai==0.10.0
+django-ses==0.8.4
+django-simple-history==1.9.0
+-e git+https://github.com/edx/django-splash.git@da3f5b76e67254e77d517a2c758d8881dd6e1e7a#egg=django_splash
+django-statici18n==1.4.0
+django-storages==1.4.1
+django-user-tasks==0.1.5
+django-waffle==0.12.0
+django-webpack-loader==0.4.1
+-e git+https://github.com/edx/django-wiki.git@b108ad30ef5ec1b60e745ad7ab47d0a2ab86a4c1#egg=django_wiki
+djangorestframework==3.6.3
+djangorestframework-jwt==1.11.0
+djangorestframework-oauth==1.1.1
+dm.xmlsec.binding==1.3.2
+docopt==0.6.2
+docutils==0.14
+dogapi==1.2.1
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=dogstats_wrapper&subdirectory=common/lib/dogstats
+-e git+https://github.com/edx/DoneXBlock.git@01a14f3bd80ae47dd08cdbbe2f88f3eb88d00fba#egg=done_xblock
+edx-ace==0.1.6
+edx-ccx-keys==0.2.1
+edx-celeryutils==0.2.7
+edx-django-oauth2-provider==1.2.5
+edx-django-release-util==0.3.1
+edx-django-sites-extensions==2.3.0
+edx-drf-extensions==1.2.3
+edx-enterprise==0.55.4
+edx-i18n-tools==0.3.10
+-e git+https://github.com/jazkarta/edx-jsme.git@690dbf75441fa91c7c4899df0b83d77f7deb5458#egg=edx_jsme
+edx-lint==0.5.4
+edx-milestones==0.1.11
+edx-oauth2-provider==1.2.2
+edx-opaque-keys==0.4
+edx-organizations==0.4.8
+edx-proctoring==1.3.1
+edx-rest-api-client==1.7.1
+edx-search==1.1.0
+edx-sga==0.7.1
+edx-submissions==2.0.12
+edx-user-state-client==1.0.2
+edxval==0.1.6
+elasticsearch==1.9.0
+enum34==1.1.6
+event-tracking==0.2.4
+execnet==1.4.1
+extras==1.0.0
+factory-boy==2.8.1
+Faker==0.8.7
+faulthandler==3.0
+feedparser==5.1.3
+firebase-token-generator==1.3.2
+fixtures==3.0.0
+flaky==3.3.0
+Flask==0.12.2
+freezegun==0.3.8
+fs==0.4.0
+funcsigs==1.0.2
+future==0.16.0
+futures==3.2.0
+fuzzywuzzy==0.15.1
+gitdb==0.6.4
+GitPython==0.3.2rc1
+glob2==0.3
+gunicorn==0.17.4
+hash-ring==1.3.1
+help-tokens==1.0.3
+html5lib==0.999
+httplib2==0.10.3
+httpretty==0.8.3
+idna==2.6
+incremental==17.5.0
+inflect==0.2.5
+ipaddr==2.1.11
+ipaddress==1.0.18
+isodate==0.6.0
+isort==4.2.5
+itsdangerous==0.24
+Jinja2==2.10
+jinja2-pluralize==0.3.0
+jsonfield==2.0.2
+kombu==3.0.37
+lazy==1.1
+lazy-object-proxy==1.3.1
+LEPL==5.1.3
+lettuce==0.2.23+edx.1
+libsass==0.10.0
+linecache2==1.0.0
+logilab-common==1.4.1
+loremipsum==1.0.5
+lti-consumer-xblock==1.1.6
+lxml==3.8.0
+mailsnake==1.6.2
+Mako==1.0.2
+mando==0.3.3
+Markdown==2.6.9
+markey==0.8
+MarkupSafe==1.0
+matplotlib==1.3.1
+mccabe==0.6.1
+mock==1.0.1
+MongoDBProxy==0.1.0
+mongoengine==0.10.0
+moto==0.3.1
+MySQL-python==1.2.5
+needle==0.5.0
+networkx==1.7
+newrelic==2.86.3.70
+nltk==2.0.6
+nodeenv==1.1.1
+nose==1.3.7
+nose-exclude==0.5.0
+nose-faulthandler==0.1
+nose-ignore-docstring==0.2
+nose-randomly==1.2.0
+nose-xunitmp==0.3.2
+nosexcover==1.0.7
+numpy==1.6.2
+oauth2==1.9.0.post1
+oauthlib==1.0.3
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=Open_edX
+-e git+https://github.com/oppia/xblock.git@9f6b95b7eb7dbabb96b77198a3202604f96adf65#egg=oppia_xblock
+ora2==2.1.6
+pa11ycrawler==1.6.2
+packaging==16.8
+-e git+https://github.com/dgrtwo/ParsePy.git@7949b9f754d1445eff8e8f20d0e967b9a6420639#egg=parse_rest
+parsel==1.2.0
+path.py==8.2.1
+pathtools==0.1.2
+Paver==1.2.4
+pbr==3.1.1
+pdfminer==20140328
+pep8==1.5.7
+piexif==1.0.2
+Pillow==3.4.0
+pluggy==0.6.0
+polib==1.0.3
+psutil==1.2.1
+ptvsd==3.0.0
+py==1.4.34
+py2neo==3.1.2
+pyasn1==0.4.2
+pyasn1-modules==0.2.1
+PyContracts==1.7.1
+pycparser==2.18
+pycryptodomex==3.4.7
+PyDispatcher==2.0.5
+-e git+https://github.com/appliedsec/pygeoip.git@95e69341cebf5a6a9fbf7c4f5439d458898bdc3b#egg=pygeoip
+Pygments==2.2.0
+pygraphviz==1.1
+pyinotify==0.9.6
+pyjwkest==1.3.2
+PyJWT==1.4.0
+pylint==1.7.1
+pylint-celery==0.3
+pylint-django==0.7.4
+pylint-plugin-utils==0.2.6
+pymongo==2.9.1
+pynliner==0.5.2
+pyOpenSSL==17.5.0
+pyparsing==2.0.7
+pyquery==1.2.9
+pysqlite==2.8.3
+pysrt==0.4.7
+-e git+https://github.com/dementrock/pystache_custom.git@776973740bdaad83a3b029f96e415a7d1e8bec2f#egg=pystache_custom
+pytest==3.1.3
+pytest-attrib==0.1.3
+pytest-catchlog==1.2.2
+pytest-cov==2.5.1
+pytest-django==3.1.2
+pytest-forked==0.2
+pytest-randomly==1.2.1
+pytest-xdist==1.20.0
+python-dateutil==2.1
+python-memcached==1.48
+python-mimeparse==1.6.0
+python-openid==2.2.5
+python-saml==2.2.1
+python-subunit==0.0.16
+python-swiftclient==3.4.0
+pytz==2016.7
+pyuca==1.1
+PyYAML==3.12
+queuelib==1.4.2
+radon==1.3.2
+-e git+https://github.com/edx/RateXBlock.git@367e19c0f6eac8a5f002fd0f1559555f8e74bfff#egg=rate_xblock
+recommender-xblock==1.2
+redis==2.10.6
+reportlab==3.1.44
+requests==2.9.1
+requests-oauthlib==0.4.1
+rfc6266===0.0.5-edx
+rules==1.1.1
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=safe_lxml&subdirectory=common/lib/safe_lxml
+sailthru-client==2.2.3
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=sandbox_packages&subdirectory=common/lib/sandbox-packages
+-e git+https://github.com/schoolyourself/schoolyourself-xblock.git@5e4d37716e3e72640e832e961f7cc0d38d4ec47b#egg=schoolyourself_xblock
+scipy==0.14.0
+Scrapy==1.1.2
+selenium==3.3.1
+service-identity==17.0.0
+Shapely==1.2.16
+shortuuid==0.5.0
+simplejson==3.13.2
+singledispatch==3.4.0.2
+six==1.11.0
+slumber==0.7.1
+smmap==0.9.0
+social-auth-app-django==1.2.0
+social-auth-core==1.4.0
+sorl-thumbnail==12.3
+sortedcontainers==0.9.2
+Sphinx==1.1.3
+sphinx-rtd-theme==0.1.5
+splinter==0.5.4
+sqlparse==0.2.4
+stevedore==1.10.0
+sure==1.2.3
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=symmath&subdirectory=common/lib/symmath
+sympy==0.7.1
+testfixtures==4.5.0
+testtools==0.9.34
+text-unidecode==1.1
+tornado==4.5.2
+tox==2.8.2
+tox-battery==0.5
+traceback2==1.4.0
+transifex-client==0.12.1
+Twisted==16.6.0
+ubcpi-xblock==0.6.4
+unicodecsv==0.14.1
+unittest2==1.1.0
+urllib3==1.7.1
+URLObject==2.4.3
+-e git+https://github.com/open-craft/xblock-vectordraw.git@c57df9d98119fd2ca4cb31b9d16c27333cdc65ca#egg=vectordraw_xblock
+virtualenv==15.1.0
+voluptuous==0.10.5
+w3lib==1.18.0
+watchdog==0.8.3
+web-fragments==0.2.2
+webencodings==0.5.1
+WebOb==1.7.4
+Werkzeug==0.12.2
+wrapt==1.10.5
+XBlock==1.1.1
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=xblock_discussion&subdirectory=openedx/core/lib/xblock_builtin/xblock_discussion
+xblock-drag-and-drop-v2==2.0.18
+-e git+https://github.com/edx-solutions/xblock-google-drive.git@138e6fa0bf3a2013e904a085b9fed77dab7f3f21#egg=xblock_google_drive
+-e git+https://github.com/OfficeDev/xblock-officemix.git@3f876b5f0267b017812620239533a29c7d562d24#egg=xblock_officemix
+xblock-poll==1.2.7
+xblock-problem-builder==2.7.7
+xblock-review==1.1.1
+xblock-utils==1.0.5
+xmltodict==0.4.1
+-e git+https://github.com/edx/edx-platform.git@d34c0fc9c9b27751f6efa1a723990135e4cfc31e#egg=XModule&subdirectory=common/lib/xmodule
+Zendesk==1.1.1
+zope.interface==4.4.3
+pip freeze > /edx/app/edxapp/edx-platform/test_root/log/pip_freeze.log
+---> pavelib.utils.test.utils.clean_reports_dir
+find /edx/app/edxapp/edx-platform/reports -type f -delete
+
+Setting up for python tests
+---> pavelib.utils.test.utils.clean_test_files
+git clean -fqdx test_root/logs test_root/data test_root/staticfiles test_root/uploads
+find . -name '.git' -prune -o -name '*.pyc' -exec rm {} \;
+rm -rf test_root/log/auto_screenshots/*
+rm -rf /tmp/mako_[cl]ms
+
+Setting up for lms
+python -Wd -m pytest --ds=lms.envs.test --junitxml=/edx/app/edxapp/edx-platform/reports/lms/nosetests.xml -p no:randomly common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest --cov --cov-report=[32;01m
+========================================
+ Running tests for lms 
+========================================
+[39;49;00m/usr/lib/python2.7/pkgutil.py:186: ImportWarning: Not importing directory '/edx/app/edxapp/venvs/edxapp/lib/python2.7/site-packages/zope': missing __init__.py
+  file, filename, etc = imp.find_module(subname, path)
+/usr/lib/python2.7/pkgutil.py:186: ImportWarning: Not importing directory '/edx/app/edxapp/venvs/edxapp/lib/python2.7/site-packages/mpl_toolkits': missing __init__.py
+  file, filename, etc = imp.find_module(subname, path)
+/usr/lib/python2.7/pkgutil.py:186: ImportWarning: Not importing directory '/edx/app/edxapp/venvs/edxapp/lib/python2.7/site-packages/logilab': missing __init__.py
+  file, filename, etc = imp.find_module(subname, path)
+/usr/lib/python2.7/pkgutil.py:186: ImportWarning: Not importing directory '/edx/app/edxapp/venvs/edxapp/lib/python2.7/site-packages/dm': missing __init__.py
+  file, filename, etc = imp.find_module(subname, path)
+/usr/lib/python2.7/pkgutil.py:186: ImportWarning: Not importing directory '/edx/app/edxapp/venvs/edxapp/lib/python2.7/site-packages/dm/xmlsec': missing __init__.py
+  file, filename, etc = imp.find_module(subname, path)
+/edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/flaky/_flaky_plugin.py:356: DeprecationWarning: type argument to addoption() is a string u'int'. For parsearg this should be a type. (options: (u'--max-runs',))
+  help="If --force-flaky is specified, we will run each test at "
+/edx/app/edxapp/venvs/edxapp/local/lib/python2.7/site-packages/flaky/_flaky_plugin.py:366: DeprecationWarning: type argument to addoption() is a string u'int'. For parsearg this should be a type. (options: (u'--min-passes',))
+  help="If --force-flaky is specified, we will run each test at "
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.12, pytest-3.1.3, py-1.4.34, pluggy-0.4.0
+Django settings: lms.envs.test (from command line option)
+rootdir: /edx/app/edxapp/edx-platform, inifile: setup.cfg
+plugins: xdist-1.20.0, forked-0.2, django-3.1.2, cov-2.5.1, catchlog-1.2.2, attrib-0.1.3, flaky-3.3.0
+collected 33 items
+
+common/djangoapps/course_modes/tests/test_views.py .................................
+
+-- generated xml file: /edx/app/edxapp/edx-platform/reports/lms/nosetests.xml --
+
+
+===Flaky Test Report===
+
+
+===End Flaky Test Report===
+========================== slowest 20 test durations ===========================
+18.08s setup    common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_choose_mode_audit_enroll_on_post
+4.60s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_choose_mode_audit_enroll_on_post
+1.49s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_course_closed
+1.12s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_redirect_to_dashboard_4__True___verified___True__True_
+0.97s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_choose_mode_redirect_1___audit____dashboard__
+0.92s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_hide_nav
+0.83s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_professional_enrollment_2_no_id_professional
+0.77s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_choose_mode_redirect_3___verified____start_flow__
+0.74s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_redirect_to_dashboard_9__False___audit___False__False_
+0.74s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_suggested_prices_4_1__2__3
+0.66s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_choose_mode_redirect_2___honor____dashboard__
+0.65s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_professional_enrollment_1_professional
+0.63s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_redirect_to_dashboard_5__True___honor___False__True_
+0.63s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_suggested_prices_1_
+0.60s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_default_mode_creation
+0.60s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_no_id_redirect
+0.60s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_redirect_to_dashboard_7__False___verified___False__False_
+0.59s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_redirect_to_dashboard_8__False___honor___False__False_
+0.58s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_suggested_prices_3_1___2
+0.58s call     common/djangoapps/course_modes/tests/test_views.py::CourseModeViewTest::test_redirect_to_dashboard_1__True___verified___True__False_
+========================== 33 passed in 58.02 seconds ==========================
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31f9dcf10>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff3201a9250>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fd4f490>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff320c79cd0>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31f9add10>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fd05890>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fb89c90>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fabc190>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31f73af90>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff3218502d0>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff3202cf4d0>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fd07210>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fa4f050>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fd14ed0>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fc2ad50>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fb89210>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fbf4e50>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31f510190>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31f4f1490>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31f73a590>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31f73aa90>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff3200d2a50>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff320aec190>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fb81810>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff3200d2510>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff3200d20d0>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31fc4c390>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31f4dccd0>> ignored
+Exception TypeError: 'super() argument 1 must be type, not None' in <bound method OSFS.__del__ of <fs.osfs.OSFS object at 0x7ff31ffcf150>> ignored
+
+Cleaning up after lms
+---> pavelib.utils.test.utils.clean_mongo
+mongo edx.devstack.mongo:27017 /edx/app/edxapp/edx-platform/scripts/delete-mongo-test-dbs.js
+MongoDB shell version: 2.6.10
+connecting to: edx.devstack.mongo:27017/test
+
+Cleaning up after python tests
+[32;01m
+
+================================================
+No test failures [39;49;00m
