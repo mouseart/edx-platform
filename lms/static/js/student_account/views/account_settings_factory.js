@@ -108,7 +108,7 @@
                 helpMessage: gettext('The country or region where you live.')
             };
             if (syncLearnerProfileData && enterpriseReadonlyAccountFields.fields.indexOf('country') !== -1) {
-                countryFieldData['editable'] = 'never';
+                countryFieldData.editable = 'never';
                 countryFieldView = {
                     view: new AccountSettingsFieldViews.DropdownFieldView(
                         countryFieldData
