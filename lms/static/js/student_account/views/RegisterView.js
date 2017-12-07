@@ -235,12 +235,14 @@
                     // is a required checkbox field and the optional fields toggle is a cosmetic
                     // improvement so that we don't have to show all the optional fields.
                     // xss-lint: disable=javascript-jquery-insert-into-target
-                    $('.checkbox-optional_fields_toggle').insertBefore('.optional-fields');
+                    $('.checkbox-optional_fields_toggle').insertAfter('.required-fields');
                     if (!this.hasOptionalFields) {
                         $('.checkbox-optional_fields_toggle').addClass('hidden');
                     }
                     // xss-lint: disable=javascript-jquery-insert-into-target
                     $('.checkbox-honor_code').insertAfter('.optional-fields');
+                    // xss-lint: disable=javascript-jquery-insert-into-target
+                    $('.checkbox-terms_of_service').insertAfter('.optional-fields');
 
                     // Clicking on links inside a label should open that link.
                     $('label a').click(function(ev) {
