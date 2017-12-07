@@ -318,9 +318,9 @@ define(['backbone',
                         title: view.options.title,
                         valueAttribute: view.options.valueAttribute,
                         helpMessage: '',
-                        validValue: Helpers.FIELD_OPTIONS[1][0],
-                        invalidValue1: Helpers.FIELD_OPTIONS[2][0],
-                        invalidValue2: Helpers.FIELD_OPTIONS[3][0],
+                        validValue: Helpers.FIELD_OPTIONS[1][0],    // dummy option for dropdown field
+                        invalidValue1: Helpers.FIELD_OPTIONS[2][0], // dummy option for dropdown field
+                        invalidValue2: Helpers.FIELD_OPTIONS[3][0], // dummy option for dropdown field
                         validationError: 'Nope, this will not do!',
                         defaultValue: null
                     }, requests);
